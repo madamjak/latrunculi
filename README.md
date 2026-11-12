@@ -1,7 +1,7 @@
 # Latrunculi
 
 <p align="left">
-<img src="./game-screen.png" alt="Example screen from Latrunculi game." >
+<img src="./game-screen.png" style="width:700px; height:auto;" alt="Example screen from Latrunculi game." >
 </p>
 
 Latrunculi is an ancient board game [https://ancientgames.org/latrunculi/](https://ancientgames.org/latrunculi/) implemented as WPF application as part of school project.
