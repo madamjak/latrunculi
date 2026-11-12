@@ -1,0 +1,22 @@
+﻿<Application x:Class="WpfApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfApp.ViewModels" xmlns:local1="clr-namespace:WpfApp.Views">
+    <Application.Resources>
+        
+        <DataTemplate DataType="{x:Type local:MainMenuViewModel}">
+            <local1:MainMenuControl />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:GameLoaderViewModel}">
+            <local1:GameLoaderControl />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:SetPlayersViewModel}">
+            <local1:SetPlayersControl />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:GamePlayViewModel}">
+            <local1:GameplayControl />
+        </DataTemplate>
+        
+
+    </Application.Resources>
+</Application>
